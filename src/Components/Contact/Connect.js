@@ -26,23 +26,23 @@ const Connect = ({ Connect }) => {
       <div className="listContainer flex justify-center items-center m-20 w-4/5">
         <ul className="flex flex-row w-full justify-evenly items-center">
           <li className="scale-[2] hover:scale-[3] transition-all duration-200">
-            <a href={Connect.linkedin} target="_blank">
+            <a href={Connect.linkedin} rel="noreferrer" target="_blank">
               <LinkedInIcon />
             </a>
           </li>
           <li className="scale-[2] hover:scale-[3] transition-all duration-200">
-            <a href={Connect.github} target="_blank">
+            <a href={Connect.github} rel="noreferrer" target="_blank">
               <GitHubIcon />
             </a>
           </li>
           <li className="scale-[2] hover:scale-[3] transition-all duration-200">
-            <a href="" target="_self">
+            <a href="#"  target="_self">
               {" "}
               <InstagramIcon />{" "}
             </a>
           </li>
           <li className="scale-[2] hover:scale-[3] transition-all duration-200">
-            <a href="" target="_self">
+            <a href="#"  target="_self">
               <XIcon />
             </a>
           </li>

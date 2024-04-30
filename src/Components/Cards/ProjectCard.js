@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "../../data/db";
+
 
 const ProjectCard = ({ project }) => {
   return (
@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
         {project.title}
       </h1>
       <div className=" m-2 flex justify-center items-center w-[90%]">
-        <img src={project.image} alt="website image" />
+        <img src={project.image} alt="image" />
       </div>
       <div>
         <p className=" m-2 text-justify">{project.description}</p>

@@ -1,7 +1,7 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaUserTie, FaBars, FaTimes } from "react-icons/fa";
-import { Link as Links } from "react-scroll";
+import {  FaBars, FaTimes } from "react-icons/fa";
+
 
 const Nav = () => {
   const navItems = ["About", "Skills", "Experience", "Projects", "Education"];

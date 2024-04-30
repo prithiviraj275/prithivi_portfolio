@@ -5,8 +5,8 @@ import infosysimg from '../Components/assets/infosys-img.png'
 export const Connect ={
   github: "https://github.com/prithiviraj275",
   linkedin: "https://linkedin.com/in/prithivi-raj-s-1b2367159",
-  // twitter: "https://twitter.com/RishavChanda",
-  // insta: "https://www.instagram.com/rishav_chanda/",
+  twitter: "https://twitter.com/prithiviraj2705",
+  instagram: "https://www.instagram.com/__prithivi__raj.s",
   // facebook: "https://www.facebook.com/rishav.chanda.165/",
   email:"prithiviraj.dk8055@gmail.com",
 };

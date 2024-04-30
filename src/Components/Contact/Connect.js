@@ -36,13 +36,12 @@ const Connect = ({ Connect }) => {
             </a>
           </li>
           <li className="scale-[2] hover:scale-[3] transition-all duration-200">
-            <a href="#">
-              {" "}
-              <InstagramIcon />{" "}
+            <a href={Connect.instagram}>             
+              <InstagramIcon />
             </a>
           </li>
           <li className="scale-[2] hover:scale-[3] transition-all duration-200">
-            <a href="#">
+            <a href={Connect.twitter}>
               <XIcon />
             </a>
           </li>

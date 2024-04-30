@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Nav from "./Components/Nav/Nav";
+import About from "./Components/About/About";
+import Skills from "./Components/Skills/Skills";
+import { Bio, skills, experiences, education,Connect,projects } from "./data/db";
+import Experience from "./Components/Experience/Experience";
+import Footer from "./Components/Footer/Footer";
+import Education from "./Components/Education/Education";
+import Contact from "./Components/Contact/Connect";
+import Project from "./Components/Project/Project";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Nav />
+        <About Bio={Bio} />
+        <Skills skills={skills} />
+        <Experience experiences={experiences} />
+        <Project projects={projects} />
+        <Education education={education} />
+        <Contact Connect = {Connect} />
+       
+        {/*<Routes>
+        <Route path='/*' element={<Missing/>}></Route>
+  </Routes>*/}
+      </Router>
+      <Footer />
     </div>
   );
 }

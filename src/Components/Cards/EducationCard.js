@@ -9,7 +9,7 @@ const EducationCard = ({ item }) => {
           {item.img === "" ? (
             <LuSchool size='3rem' />
           ) : (
-            <img src={item.img} alt="image" />
+            <img src={item.img}  />
           )}
         </div>
         <div className="namecontainer ml-4 flex flex-col items-start">

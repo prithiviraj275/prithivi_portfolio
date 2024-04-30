@@ -25,7 +25,7 @@ const About = ({Bio}) => {
             <a href={Bio.resume} target='display' className='m-5 text-lg mb-10 h-14 w-36 border-4 border-purple-text text-center flex justify-center items-center rounded-full tracking-widest hover:bg-purple-text hover:text-white'>Resume</a>
         </div>
         <div className='rightcontainer max-[639px]:my-5 sm:my-5 md:w-2/4 flex justify-center items-center' id='right'>
-            <img src={proImg} alt="Hero-Image"  className='h-4/5 w-4/5 drop-shadow-2xl'/>
+            <img src={proImg} className='h-4/5 w-4/5 drop-shadow-2xl'/>
         </div>
 
     </section>

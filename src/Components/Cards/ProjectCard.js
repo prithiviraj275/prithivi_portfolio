@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
         {project.title}
       </h1>
       <div className=" m-2 flex justify-center items-center w-[90%]">
-        <img src={project.image} alt="image" />
+        <img src={project.image}  />
       </div>
       <div>
         <p className=" m-2 text-justify">{project.description}</p>

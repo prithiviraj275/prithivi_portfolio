@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
       <div>
         <p className=" m-2 text-justify">{project.description}</p>
       </div>
-       <a href="">click here for more details</a>
+       <a href={project.webapp}>click here for more details</a>
      
     </div>
   );

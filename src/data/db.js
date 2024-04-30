@@ -323,7 +323,7 @@ export const projects = [
     ],
     category: "web app",
     github: "",
-    webapp: "",
+    webapp: "https://localhost:8080/",
   },  
   {
     id: 1,
@@ -343,7 +343,7 @@ export const projects = [
     ],
     category: "web app",
     github: "",
-    webapp: "",
+    webapp: "https://localhost:8080/",
   },  
   
 ];

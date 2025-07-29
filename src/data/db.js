@@ -369,26 +369,26 @@ export const education = [
 //     github: "",
 //     webapp: "https://localhost:8080/",
 //   },  
-//   {
-//     id: 2,
-//     title: "Tic Tac Toe",
-//     date: "Jun 2023 - Oct 2023",
-//     description:
-//       "This is a two player game where you can play with your friend or play with the computer",
-//     image:tictactoecover,
+  // {
+  //   id: 2,
+  //   title: "Tic Tac Toe",
+  //   date: "Jun 2023 - Oct 2023",
+  //   description:
+  //     "This is a two player game where you can play with your friend or play with the computer",
+  //   image:tictactoecover,
      
-//     tags: [
-//       "React Js",
-//       "MongoDb",
-//       "Node Js",
-//       "Express Js",
-//       "Redux",
-//       "NodeMailer",
-//     ],
-//     category: "web app",
-//     github: "",
-//     webapp: "https://2playtictactoe2.netlify.app/",
-//   },  
+  //   tags: [
+  //     "React Js",
+  //     "MongoDb",
+  //     "Node Js",
+  //     "Express Js",
+  //     "Redux",
+  //     "NodeMailer",
+  //   ],
+  //   category: "web app",
+  //   github: "",
+  //   webapp: "https://2playtictactoe2.netlify.app/",
+  // },  
   
 // ];
 
@@ -452,7 +452,28 @@ export const projects = [
     category: "machine learning",
     github: "",
     webapp: ""
-  }
+  },
+    {
+    id: 5,
+    title: "Tic Tac Toe",
+    date: "Jun 2023 - Oct 2023",
+    description:
+      "This is a two player game where you can play with your friend or play with the computer",
+    image:tictactoecover,
+     
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "NodeMailer",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "https://2playtictactoe2.netlify.app/",
+  },  
+  
 ];
 
 

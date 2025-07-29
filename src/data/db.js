@@ -240,7 +240,7 @@ export const experiences = [
     role: "Technology Analyst",
     company: "Infosys Ltd",
     date: "April 2025 - Present",
-    desc:  "Led development of Python-based microservices using FastAPI, improving throughput by 35% with async workflows and optimized PostgreSQL.      Built AI-powered document pipelines using OpenCV, NLP, and AI Next DocAI, reducing manual validation by 60%.",
+    desc:  "Led development of Python-based microservices using FastAPI, improving throughput by 35% with async workflows and optimized PostgreSQL.      Built AI-powered document pipelines using OpenCV, NLP, and AI Next DocAI, reducing manual validation by 60%."
     skills: [
       "Python",
       "Django",

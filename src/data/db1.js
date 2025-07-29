@@ -1,4 +1,28 @@
-export const personalData = {
+
+export const Connect ={
+  github: "https://github.com/prithiviraj275",
+  linkedin: "https://linkedin.com/in/prithivi-raj-s-1b2367159",
+  twitter: "https://twitter.com/prithiviraj2705",
+  instagram: "https://www.instagram.com/__prithivi__raj.s",
+  // facebook: "https://www.facebook.com/rishav.chanda.165/",
+  email:"prithiviraj.dk8055@gmail.com",
+};
+
+
+// export const Bio = {
+//   name: "Prithivi Raj S",
+//   roles: [
+//     "Full Stack Developer",
+//     "RPA Developer",      
+//     "Programmer",
+//   ],    
+//   description:
+//     "As an experienced Full Stack Developer, I specialize in crafting captivating front-end experiences with React and building robust back-end systems using Node.js, Python, and Django. With a passion for learning and a knack for innovation, I excel in tackling tech challenges with creativity and precision. I thrive in collaborative environments and am dedicated to delivering top-notch results that exceed expectations. Let's bring your digital dreams to life together!", 
+//   resume:
+//     "https://drive.google.com/file/d/1ecNla5zT_2gfoetST9grva9ALvN7_QWN/view?usp=sharing",
+// }
+
+export const Bio = {
   name: "Prithivi Raj S",
   profile: "/profile.png",
   designation: "Python Developer | Full Stack Developer",

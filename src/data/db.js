@@ -326,71 +326,135 @@ export const education = [
   },
 ];
 
+// export const projects = [
+//   {
+//     id: 0,
+//     title: "Skillhub",
+//     date: "Dec 2023 - present",
+//     description:
+//       "This is web application to manage employee data and their skills, managers can assign skills session and track their progress",
+//     image:
+//       "",
+//     tags: [
+//       "Docker",
+//       "AWS",      
+//       "CI/CD",
+//       "React Js",
+//       "MongoDb",
+//       "Node Js",
+//       "Express Js",
+//       "Redux",
+//     ],
+//     category: "web app",
+//     github: "",
+//     webapp: "https://localhost:8080/",
+//   },  
+//   {
+//     id: 1,
+//     title: "Bloggie",
+//     date: "Jun 2023 - Oct 2023",
+//     description:
+//       "This is blog website ",
+//     image:
+//       "",
+//     tags: [
+//       "React Js",
+//       "MongoDb",
+//       "Node Js",
+//       "Express Js",
+//       "Redux",
+//       "NodeMailer",
+//     ],
+//     category: "web app",
+//     github: "",
+//     webapp: "https://localhost:8080/",
+//   },  
+//   {
+//     id: 2,
+//     title: "Tic Tac Toe",
+//     date: "Jun 2023 - Oct 2023",
+//     description:
+//       "This is a two player game where you can play with your friend or play with the computer",
+//     image:tictactoecover,
+     
+//     tags: [
+//       "React Js",
+//       "MongoDb",
+//       "Node Js",
+//       "Express Js",
+//       "Redux",
+//       "NodeMailer",
+//     ],
+//     category: "web app",
+//     github: "",
+//     webapp: "https://2playtictactoe2.netlify.app/",
+//   },  
+  
+// ];
+
 export const projects = [
   {
     id: 0,
     title: "Skillhub",
-    date: "Dec 2023 - present",
+    date: "July 2023",
     description:
-      "This is web application to manage employee data and their skills, managers can assign skills session and track their progress",
-    image:
-      "",
-    tags: [
-      "Docker",
-      "AWS",      
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
+      "A centralized employee skill management system with automated training assignments, reducing admin workload by 40%.",
+    image: "/projects/skillhub.jpg",
+    tags: ["Django", "Python", "MySQL"],
     category: "web app",
-    github: "",
-    webapp: "https://localhost:8080/",
-  },  
+    github: "https://github.com/prithiviraj275/Skillhub",
+    webapp: "https://skillhub-prithivi.netlify.app/"
+  },
   {
     id: 1,
-    title: "Bloggie",
-    date: "Jun 2023 - Oct 2023",
+    title: "Metro Bank API System",
+    date: "April 2025",
     description:
-      "This is blog website ",
-    image:
-      "",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
+      "Developed secure REST API with JWT, PostgreSQL indexing, and async FastAPI features. Achieved 99.9% uptime and supported 100+ concurrent users.",
+    image: "/projects/bankapi.png",
+    tags: ["FastAPI", "Flask", "PostgreSQL"],
     category: "web app",
     github: "",
-    webapp: "https://localhost:8080/",
-  },  
+    webapp: ""
+  },
   {
     id: 2,
-    title: "Tic Tac Toe",
-    date: "Jun 2023 - Oct 2023",
+    title: "Document Data Extraction Tool",
+    date: "October 2024",
     description:
-      "This is a two player game where you can play with your friend or play with the computer",
-    image:tictactoecover,
-     
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
-    category: "web app",
+      "Python tool for extracting contract data using Flask and AI Next DocAI, reducing manual effort by 50%.",
+    image: "/projects/docai.png",
+    tags: ["Python", "DocAI", "Flask", "Neural Connect"],
+    category: "AI tool",
     github: "",
-    webapp: "https://2playtictactoe2.netlify.app/",
-  },  
-  
+    webapp: ""
+  },
+  {
+    id: 3,
+    title: "Marketing Chatbot",
+    date: "January 2024",
+    description:
+      "AI Next-powered chatbot to retrieve marketing content and generate PowerPoint presentations, saving 10+ hours weekly.",
+    image: "/projects/chatbot.png",
+    tags: ["Django", "AI Next", "Document AI"],
+    category: "AI tool",
+    github: "",
+    webapp: ""
+  },
+  {
+    id: 4,
+    title: "ML Data Prediction System",
+    date: "November 2022",
+    description:
+      "Forecasting model for automation input prediction using scikit-learn, achieving 87% accuracy and reducing bot setup time by 35%.",
+    image: "/projects/mlpredict.png",
+    tags: ["Python", "Scikit-learn", "AssistEdge"],
+    category: "machine learning",
+    github: "",
+    webapp: ""
+  }
 ];
+
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },

@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Nav from "./Components/Nav/Nav";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
-import { Bio, skills, experiences, education,Connect,projects } from "./data/db";
+import { Bio, skills, experiences, education,Connect,projects } from "./data/db1";
 import Experience from "./Components/Experience/Experience";
 import Footer from "./Components/Footer/Footer";
 import Education from "./Components/Education/Education";

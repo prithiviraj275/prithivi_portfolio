@@ -240,7 +240,7 @@ export const experiences = [
     role: "Technology Analyst",
     company: "Infosys Ltd",
     date: "April 2025 - Present",
-    desc:  "Led development of Python-based microservices using FastAPI, improving throughput by 35% with async workflows and optimized PostgreSQL.      Built AI-powered document pipelines using OpenCV, NLP, and AI Next DocAI, reducing manual validation by 60%."
+    desc:  "Led development of Python-based microservices using FastAPI, improving throughput by 35% with async workflows and optimized PostgreSQL.      Built AI-powered document pipelines using OpenCV, NLP, and AI Next DocAI, reducing manual validation by 60%.",
     skills: [
       "Python",
       "Django",
@@ -250,8 +250,7 @@ export const experiences = [
       "CSS",
       "AI Next",
       "Docker",
-      "Postgres"
-      
+      "Postgres"      
     ],
   //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },

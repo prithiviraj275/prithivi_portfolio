@@ -9,18 +9,7 @@ export const Connect ={
 };
 
 
-// export const Bio = {
-//   name: "Prithivi Raj S",
-//   roles: [
-//     "Full Stack Developer",
-//     "RPA Developer",      
-//     "Programmer",
-//   ],    
-//   description:
-//     "As an experienced Full Stack Developer, I specialize in crafting captivating front-end experiences with React and building robust back-end systems using Node.js, Python, and Django. With a passion for learning and a knack for innovation, I excel in tackling tech challenges with creativity and precision. I thrive in collaborative environments and am dedicated to delivering top-notch results that exceed expectations. Let's bring your digital dreams to life together!", 
-//   resume:
-//     "https://drive.google.com/file/d/1ecNla5zT_2gfoetST9grva9ALvN7_QWN/view?usp=sharing",
-// }
+
 
 export const Bio = {
   name: "Prithivi Raj S",

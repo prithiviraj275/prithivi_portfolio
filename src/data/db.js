@@ -276,7 +276,7 @@ export const experiences = [
     role: "Systems Engineer",
     company: "Infosys Ltd",
     date: "Sep 2021 - Sep 2023",
-    desc: "Designed and delivered 25+ RPA solutions with Python and AssistEdge. Automated multi-platform workflows (web, Windows, Excel, Outlook), saving 20+ hours per week."
+    desc: "Designed and delivered 25+ RPA solutions with Python and AssistEdg. Automated multi-platform workflows (web, Windows, Excel, Outlook), saving 20+ hours per week.",
     skills: [       
       "Python",      
       "JavaScript",

@@ -260,7 +260,7 @@ export const experiences = [
     role: "Senior Systems Engineer",
     company: "Infosys Ltd",
     date: "September 2023 - March 2025",
-    desc: "Developed backend automation tools using Python, Pandas, and Selenium. Built RESTful APIs and integrated them with AI Next Engage and frontend UIs. Collaborated with clients for UI design and data automation"
+    desc: "Developed backend automation tools using Python, Pandas, and Selenium. Built RESTful APIs and integrated them with AI Next Engage and frontend UIs. Collaborated with clients for UI design and data automation",
     skills: [       
       "Python",
       "Flask",
